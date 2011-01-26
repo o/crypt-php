@@ -1,15 +1,15 @@
 Introduction
 ------------
-cryptPHP is class for encrypting and decrypting any data type in PHP. It uses libmcrypt and rjindael-192 (also known as AES192) algorithm. It tested on Mac OS X server and some (Ubuntu and Centos) Linux distributions.
+crypt-php is class for encrypting and decrypting any data type in PHP. It uses libmcrypt and rjindael-192 (also known as AES192) algorithm. It tested on Mac OS X server and some (Ubuntu and Centos) Linux distributions.
 
 How to use
 ----------
-Include cryptPHP.php to your PHP project and call cryptPHP class with new operator. It checks your environment is mcrypt installed correctly.
+Include Crypt.php to your PHP project and call Crypt class with new operator. It checks your environment is mcrypt installed correctly.
 
 Encryption
 ==========
 
-<pre>$crypt = new cryptPHP;</pre>
+<pre>$crypt = new Crypt;</pre>
 Now provide a secret key for encrypting and decrypting given data. This secret key must 8 character at least.
 
 <pre>$crypt->setKey('eff99cfe6876008c6a6e080e4a382be1');</pre>
@@ -34,7 +34,7 @@ This cipher is change on every request.
 Decryption
 ==========
 
-<pre>$crypt = new cryptPHP;</pre>
+<pre>$crypt = new Crypt;</pre>
 Do you remember ? We encrypted a complex data type.
 
 <pre>$crypt->setComplexTypes(TRUE);</pre>

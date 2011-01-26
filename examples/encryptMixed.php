@@ -1,6 +1,6 @@
 <?php
-require_once('../cryptPHP.php');
-$crypt = new cryptPHP;
+require_once('../Crypt.php');
+$crypt = new Crypt();
 $crypt->setKey('YOUR CYPHER KEY');
 $crypt->setComplexTypes(TRUE);
 $data = new ArrayObject();
