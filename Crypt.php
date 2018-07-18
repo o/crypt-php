@@ -11,7 +11,7 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php BSD License
  * @version    Version @package_version@
  * @since      Class available since Version 1.0.0
- * @link       http://github.com/osmanungur/crypt-php
+ * @link       http://github.com/o/crypt-php
  */
 
 class Crypt {
